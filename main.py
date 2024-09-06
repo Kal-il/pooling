@@ -21,7 +21,7 @@ def main():
         elif op == 2:
             print("Ampliar a imagem por interpolação bilinear")
             scale_factor = 2
-            new_matrix = bilinear_interpolation_expand(matrix, scale_factor)
+            new_matrix = bilinear_interpolation_expand(matrix)
             print("Matriz resultante após interpolação bilinear:")
             print(np.array(new_matrix))
         elif op == 3:
@@ -41,7 +41,7 @@ def main():
             print("Opção inválida. Por favor, insira um número entre 1 e 5.")
 
 
-file_path = "matrix.txt"
+file_path = "matrix-2.txt"
 matrix = read_matrix_from_txt(file_path)
 new_matrix = []   
 if __name__ == "__main__":
