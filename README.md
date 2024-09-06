@@ -1,21 +1,7 @@
 # Projeto de Processamento de Imagens
 
 ## Descrição
-Este projeto fornece várias funcionalidades de processamento de imagens, incluindo ampliação e redução de imagens usando diferentes métodos de interpolação, como vizinho mais próximo e interpolação bilinear.
-
-## Instalação
-1. Clone o repositório:
-    ```sh
-    git clone <url-do-repositorio>
-    ```
-2. Navegue até o diretório do projeto:
-    ```sh
-    cd <diretorio-do-projeto>
-    ```
-3. Instale as dependências necessárias:
-    ```sh
-    pip install -r requirements.txt
-    ```
+Este projeto fornece funcionalidades de processamento de imagens como ampliação e redução de imagens usando os métodos de interpolação: vizinho mais próximo e interpolação bilinear.
 
 ## Uso
 1. Execute o script principal:
